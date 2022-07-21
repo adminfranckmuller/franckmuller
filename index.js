@@ -16,7 +16,7 @@ app.use("/admin", AdminRoutes);
 app.use("/announcement", Announcements);
 app.use("/popup", Popups);
 app.use("/admin/login", Login);
-// if route not found
+// if route not foundheroku keys:add
 app.get("/", (req, res) => {
   res.json({ response: "Api's work Perfectly!" });
 });
